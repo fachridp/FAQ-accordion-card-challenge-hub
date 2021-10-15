@@ -1,0 +1,9 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  background-color: var(--SoftVioletGradient);
+  color: var(--VeryDarkDesaturatedBlue);
+  position: relative;
+  overflow-y: hidden;
+}
+/*# sourceMappingURL=body.css.map */

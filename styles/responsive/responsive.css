@@ -1,0 +1,89 @@
+@media only screen and (min-width: 375px) {
+  main .container-card .card-items {
+    width: 290px;
+  }
+  main .container-card .card-items section.container-img-illustration .illustration-woman img {
+    height: 150px;
+    top: -82px;
+    left: 30px;
+  }
+  main .container-card .card-items section.container-img-illustration .pattern img {
+    top: -5px;
+    left: 42px;
+  }
+  main .container-card .card-items section.container-faq {
+    padding: 5rem 0 3rem 0;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  main {
+    margin: 0;
+  }
+  main .container-card {
+    position: relative;
+  }
+  main .container-card .illustration-box {
+    width: 240px;
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: -70px;
+    z-index: 2;
+  }
+  main .container-card .illustration-box img {
+    width: 60%;
+  }
+  main .container-card .card-items {
+    width: 730px;
+    height: 430px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    overflow: hidden;
+  }
+  main .container-card .card-items section.container-img-illustration .illustration-woman img.illustration-mobile {
+    display: none;
+  }
+  main .container-card .card-items section.container-img-illustration .illustration-woman img.illustration-desktop {
+    height: 270px;
+    top: 50px;
+    left: -60px;
+    display: block;
+  }
+  main .container-card .card-items section.container-img-illustration .pattern {
+    width: 240px;
+  }
+  main .container-card .card-items section.container-img-illustration .pattern img.pattern-mobile {
+    display: none;
+  }
+  main .container-card .card-items section.container-img-illustration .pattern img.pattern-desktop {
+    width: 88%;
+    top: -160px;
+    left: -310px;
+    display: block;
+  }
+  main .container-card .card-items section.container-faq {
+    width: 360px;
+    height: 100%;
+    padding: 0 4rem 0 0;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  main .container-card .card-items section.container-faq .container-title {
+    padding: 0;
+  }
+  main .container-card .card-items section.container-faq ul.container-faq-items {
+    width: 95%;
+    padding: 0 0 2.2rem 0;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,9 @@
+.card-items {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--ContainerCard);
+  border-radius: 1rem;
+  position: relative;
+  box-shadow: 0 10px 30px var(--VeryDarkGrayishBlue);
+}

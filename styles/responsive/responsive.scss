@@ -1,0 +1,107 @@
+@media only screen and (min-width: 375px) {
+  main {
+    .container-card {
+      .card-items {
+        width: 290px;
+
+        section.container-img-illustration {
+          .illustration-woman {
+            img {
+              height: 150px;
+              top: -82px;
+              left: 30px;
+            }
+          }
+
+          .pattern {
+            img {
+              top: -5px;
+              left: 42px;
+            }
+          }
+        }
+
+        section.container-faq {
+          padding: 5rem 0 3rem 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  main {
+    margin: 0;
+
+    .container-card {
+      position: relative;
+
+      .illustration-box {
+        width: 240px;
+        display: block;
+        position: absolute;
+        top: 150px;
+        left: -70px;
+        z-index: 2;
+
+        img {
+          width: 60%;
+        }
+      }
+      .card-items {
+        width: 730px;
+        height: 430px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+
+        section.container-img-illustration {
+          .illustration-woman {
+            img.illustration-mobile {
+              display: none;
+            }
+
+            img.illustration-desktop {
+              height: 270px;
+              top: 50px;
+              left: -60px;
+              display: block;
+            }
+          }
+
+          .pattern {
+            width: 240px;
+
+            img.pattern-mobile {
+              display: none;
+            }
+
+            img.pattern-desktop {
+              width: 88%;
+              top: -160px;
+              left: -310px;
+              display: block;
+            }
+          }
+        }
+
+        section.container-faq {
+          width: 360px;
+          height: 100%;
+          padding: 0 4rem 0 0;
+          align-items: flex-start;
+
+          .container-title {
+            padding: 0;
+          }
+
+          ul.container-faq-items {
+            width: 95%;
+            padding: 0 0 2.2rem 0;
+          }
+        }
+      }
+    }
+  }
+}

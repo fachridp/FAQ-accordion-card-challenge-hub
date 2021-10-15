@@ -1,0 +1,28 @@
+section.container-img-illustration .illustration-woman img {
+  height: 150px;
+  position: absolute;
+  top: -80px;
+  left: 28px;
+  vertical-align: middle;
+}
+
+section.container-img-illustration .illustration-woman img.illustration-desktop {
+  display: none;
+}
+
+section.container-img-illustration .pattern {
+  margin: 0 auto;
+  width: 240px;
+}
+
+section.container-img-illustration .pattern img {
+  width: 70%;
+  position: absolute;
+  left: 45px;
+  vertical-align: middle;
+}
+
+section.container-img-illustration .pattern img.pattern-desktop {
+  display: none;
+}
+/*# sourceMappingURL=sectionImgIllustration.css.map */

@@ -1,0 +1,143 @@
+section.container-faq {
+  padding: 5rem 0 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .container-title {
+    padding: 1.5rem 0 0 0;
+
+    h1 {
+      font-size: 2.2em;
+      font-weight: 700;
+    }
+  }
+
+  ul.container-faq-items {
+    width: 100%;
+    margin: 0.5rem 0 0 0;
+    padding: 0 1.4rem;
+
+    div {
+      &.team {
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--DarkGrayishBlue);
+
+        li {
+          &:hover {
+            color: var(--SoftRed);
+          }
+        }
+
+        img {
+          height: 8px;
+        }
+      }
+
+      &.container-faq-popup {
+        border-bottom: 1px solid var(--DarkGrayishBlue);
+
+        .faq-popup {
+          padding: 1rem 0;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          li.question {
+            &:hover {
+              color: var(--SoftRed);
+            }
+
+            &.active {
+              color: var(--VeryDarkDesaturatedBlue);
+              font-weight: 700;
+            }
+          }
+
+          img.arrow-down {
+            height: 8px;
+
+            &.arrow-up {
+              transform: rotate(180deg);
+            }
+          }
+        }
+
+        li.answer {
+          padding: 0 0 1rem 0;
+          cursor: unset;
+        }
+
+        li.popup {
+          color: var(--LightGrayishBlue);
+          display: none;
+        }
+      }
+
+      &.reset-password {
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--DarkGrayishBlue);
+
+        li {
+          &:hover {
+            color: var(--SoftRed);
+          }
+        }
+
+        img {
+          height: 8px;
+        }
+      }
+
+      &.subscription {
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--DarkGrayishBlue);
+
+        li {
+          &:hover {
+            color: var(--SoftRed);
+          }
+        }
+
+        img {
+          height: 8px;
+        }
+      }
+
+      &.support {
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--DarkGrayishBlue);
+
+        li {
+          &:hover {
+            color: var(--SoftRed);
+          }
+        }
+
+        img {
+          height: 8px;
+        }
+      }
+
+      li {
+        font-size: 1em;
+        list-style: none;
+        color: var(--VeryDarkGrayishBlue);
+        cursor: pointer;
+      }
+    }
+  }
+}

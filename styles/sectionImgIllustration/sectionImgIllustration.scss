@@ -1,0 +1,31 @@
+section.container-img-illustration {
+  .illustration-woman {
+    img {
+      height: 150px;
+      position: absolute;
+      top: -80px;
+      left: 28px;
+      vertical-align: middle;
+
+      &.illustration-desktop {
+        display: none;
+      }
+    }
+  }
+
+  .pattern {
+    margin: 0 auto;
+    width: 240px;
+
+    img {
+      width: 70%;
+      position: absolute;
+      left: 45px;
+      vertical-align: middle;
+
+      &.pattern-desktop {
+        display: none;
+      }
+    }
+  }
+}
